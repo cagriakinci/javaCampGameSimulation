@@ -13,11 +13,11 @@ public class Main {
 
 	public static void main(String[] args) throws NumberFormatException, RemoteException {
 
-		User user1 = new User(1, "Çaðrý", "Akýncý", 1998, "11111111111");
+		User user1 = new User(1, "Ã‡aÄŸrÄ±", "AkÄ±ncÄ±", 1998, "11111111111");
 
 		Game game1 = new Game(1, "Call Of Duty Ghost", 600);
 
-		Campaign campaign1 = new Campaign(1, "Blizzard Ýndirimi", 20);
+		Campaign campaign1 = new Campaign(1, "Blizzard Ä°ndirimi", 20);
 
 		GameManager gameManager = new GameManager();
 		gameManager.add(game1);
