@@ -7,19 +7,19 @@ public class GameManager implements GameService{
 
 	@Override
 	public void add(Game game) {
-		System.out.println(game.getName()+" "+game.getPrice()+" "+"fiyatıyla eklendi.");
+		System.out.println(game.getName()+" "+game.getPrice()+" "+"fiyatÄ±yla eklendi.");
 		
 	}
 
 	@Override
 	public void update(Game game) {
-		System.out.println(game.getName()+" "+"oyununun bilgileri güncellendi.");
+		System.out.println(game.getName()+" "+"oyununun bilgileri gÃ¼ncellendi.");
 		
 	}
 
 	@Override
 	public void delete(Game game) {
-		System.out.println(game.getName()+" "+"sistemden kaldırıldı.");
+		System.out.println(game.getName()+" "+"sistemden kaldÄ±rÄ±ldÄ±.");
 		
 	}
 
