@@ -9,7 +9,7 @@ public class SalesManager {
 		String discountedPrice = user.getFirstName() + " " + user.getLastName() + " " + game.getName() + " " + "oyununu"
 				+ " " + "%" + campaign.getDiscount() + " " + "indirimle" + " "
 				+ (game.getPrice() - (game.getPrice() * campaign.getDiscount() / 100)) + " "
-				+ "TL fiyatýna satýn aldý.";
+				+ "TL fiyatÄ±na satÄ±n aldÄ±.";
 		System.out.println(discountedPrice);
 
 	}
