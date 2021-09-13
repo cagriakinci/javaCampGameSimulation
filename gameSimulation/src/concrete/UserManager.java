@@ -16,22 +16,22 @@ public class UserManager implements UserService {
 	@Override
 	public void add(User user) throws NumberFormatException, RemoteException {
 		if (personCheckService.CheckIfRealPerson(user)) {
-			System.out.println(user.getFirstName() + " " + user.getLastName() + " " + "baþarýyla kayýt oldu.");
+			System.out.println(user.getFirstName() + " " + user.getLastName() + " " + "baÅŸarÄ±yla kayÄ±t oldu.");
 		}else {
-			System.out.println("Kiþi Mernis Sisteminde yok.");
+			System.out.println("KiÅŸi Mernis Sisteminde yok.");
 		}
 
 	}
 
 	@Override
 	public void update(User user) throws NumberFormatException, RemoteException { 
-		System.out.println(user.getFirstName() + " " + user.getLastName() + " " + "bilgilerini güncelledi.");
+		System.out.println(user.getFirstName() + " " + user.getLastName() + " " + "bilgilerini gÃ¼ncelledi.");
 
 	}
 
 	@Override
 	public void delete(User user) throws NumberFormatException, RemoteException {
-		System.out.println(user.getFirstName() + " " + user.getLastName() + " " + "kaydýný sildi.");
+		System.out.println(user.getFirstName() + " " + user.getLastName() + " " + "kaydÄ±nÄ± sildi.");
 
 	}
 
