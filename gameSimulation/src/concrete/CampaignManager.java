@@ -7,19 +7,19 @@ public class CampaignManager implements CampaignService{
 
 	@Override
 	public void add(Campaign campaign) {
-		System.out.println(campaign.getCampaignName()+" "+"kampanyasý eklendi.");
+		System.out.println(campaign.getCampaignName()+" "+"kampanyasÄ± eklendi.");
 		
 	}
 
 	@Override
 	public void update(Campaign campaign) {
-		System.out.println(campaign.getCampaignName()+" "+"kampanya bilgileri güncellendi.");
+		System.out.println(campaign.getCampaignName()+" "+"kampanya bilgileri gÃ¼ncellendi.");
 		
 	}
 
 	@Override
 	public void delete(Campaign campaign) {
-		System.out.println(campaign.getCampaignName()+" "+"kampanyasý silindi.");
+		System.out.println(campaign.getCampaignName()+" "+"kampanyasÄ± silindi.");
 		
 	}
 
